@@ -20,9 +20,9 @@ int areaComparison(int sideOne, int sideTwo, int sideThree)
 
 int main()
 {
-    int length{};
-    int width{};
-    int height{};
+    int length{4};
+    int width{5};
+    int height{6};
 
 
     int sideOne{areaCalculation(length,width)};

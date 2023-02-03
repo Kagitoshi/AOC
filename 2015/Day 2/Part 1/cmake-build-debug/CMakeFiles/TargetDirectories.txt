@@ -1,3 +1,0 @@
-C:/Users/deledwiz/Documents/AOC/2015/Day 2/Part 1/cmake-build-debug/CMakeFiles/Part_1.dir
-C:/Users/deledwiz/Documents/AOC/2015/Day 2/Part 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/deledwiz/Documents/AOC/2015/Day 2/Part 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
