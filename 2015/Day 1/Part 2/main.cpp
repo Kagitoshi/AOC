@@ -15,21 +15,28 @@ int main()
 
    int floor{0};
 
+   int position{0};
+
     for(int i{0}; i < directions.size(); ++i)
     {
         if(directions[i] == '(')
         {
             ++floor;
+            ++position;
         }
+
         else if(directions[i] == ')')
         {
             --floor;
+            ++position;
+            if(floor == -1)
+                break;
         }
     }
 
 
-   std::cout << "\n\nSanta is going to floor " << floor << '\n';
-   std::cout << "I hope you didn't get him lost.\n";
+   std::cout << "\n\nSanta goes into the basement at position " << position << '\n';
+   std::cout << "It is dark and scary... Get him out.\n";
 
     return 0;
 }
